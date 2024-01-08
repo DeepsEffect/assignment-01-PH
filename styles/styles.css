@@ -101,6 +101,10 @@
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 48px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 #deal-container .hny-vector {
@@ -403,9 +407,9 @@
 .footer-texts .footer-left .copy-right-bar {
     color: #FFF;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    margin-top: 260px;
+    margin-top: 180px;
 }
 
 .footer-texts .footer-right .web-address {
@@ -432,6 +436,5 @@
     border-top: 2px solid white;
     padding: 10px;
     border-bottom: 2px solid white;
-    padding: 10px;
     text-align: center;
 }
