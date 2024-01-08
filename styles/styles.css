@@ -14,6 +14,16 @@
     height: 600px;
     background-repeat: no-repeat;
     margin-bottom: 120px;
+    margin: 0 auto;
+
+}
+
+.paragraph-primary {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
 
 .btn-primary {
@@ -35,6 +45,7 @@
     background-color: rgb(204, 44, 44);
     transition: background-color 0.3s ease;
 }
+
 /* New Year Banner */
 .banner {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner-Image.png');
@@ -96,6 +107,7 @@
     margin: 0 auto;
     margin-bottom: 120px;
 }
+
 /* deal section ends here... */
 
 /* MIDNIGHT PARTY SECTION */
@@ -151,6 +163,7 @@
 .party-banner .vector-2024 img {
     margin-top: 70px;
 }
+
 /* party section ends here... */
 
 /* ADDRESS SECTION */
@@ -183,6 +196,58 @@
     line-height: 56px;
     margin-bottom: 16px;
 }
+
 /* address section ends here */
 
-/* BONUS SECTION */
+/* bonus section 'new best offer'  */
+.new-best-offer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.new-best-offer .coming-soon {
+    text-align: left;
+}
+
+.new-best-offer .coming-soon h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.new-best-offer .coming-soon h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+
+.new-best-offer .coming-soon-right .paragraph-primary {
+    margin-bottom: 20px;
+}
+
+.new-best-offer .celebration-img {
+    width: 100%;
+    max-width: 364px;
+    padding-left: 119px;
+    padding-right: 167px;
+  
+}
+
+.new-best-offer .coming-soon-right {
+    text-align: left;
+
+}
+
+.new-best-offer .coming-soon-right h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
