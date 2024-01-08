@@ -259,6 +259,7 @@
 .holiday-sales .holiday-sales-texts {
     text-align: center;
 }
+
 .holiday-sales {
     display: flex;
     align-items: center;
@@ -283,4 +284,32 @@
     color: #070211;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* holiday sale ends here */
+
+/* portfolio section styles */
+.portfolio .portfolio-texts h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.portfolio .portfolio-texts h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio .portfolio-texts{
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+.portfolio img{
+    max-width: 500px;
+    align-items: center;
+}
+.portfolio .portfolio-texts{
+    margin-bottom: 48px;
 }
