@@ -240,8 +240,19 @@
     max-width: 364px;
     padding-left: 119px;
     padding-right: 167px;
-
+    border: 15px solid red;
+    border-radius: 100%;
+    padding: 40px;
+    
 }
+
+.new-best-offer .coming-soon{
+    padding-right: 70px;
+}
+.new-best-offer .coming-soon-right{
+    padding-left: 118px;
+}
+
 
 .new-best-offer .coming-soon-right {
     text-align: left;
