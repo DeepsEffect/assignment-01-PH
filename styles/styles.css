@@ -204,6 +204,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .new-best-offer .coming-soon {
@@ -236,7 +237,7 @@
     max-width: 364px;
     padding-left: 119px;
     padding-right: 167px;
-  
+
 }
 
 .new-best-offer .coming-soon-right {
@@ -250,4 +251,44 @@
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
+}
+
+/* bonus section 'new best offer' ends here */
+
+/* Holiday Sales styles */
+.holiday-sales .holiday-sales-texts {
+    text-align: center;
+}
+.holiday-sales {
+    display: flex;
+    align-items: center;
+}
+.holiday-sales .holiday-sales-texts{
+    background: url('../resources/Group\ 44.png'),rgba(224, 10, 10, 0.913);
+    max-width: 100%;
+}
+
+.holiday-sales .holiday-sales-texts h2 {
+    color: #1d1d1d;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sales .holiday-sales-texts h1 span {
+    color: rgb(4, 4, 4);
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sales .holiday-sales-texts h1 {
+    color: #000000;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sales{
+    display: flex;
+    justify-content: center;
 }
