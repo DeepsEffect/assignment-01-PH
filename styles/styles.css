@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Merriweather', 'Inter';
+    font-family: 'Merriweather', 'Inter', 'monospace';
 }
 
 /* common shared  styles */
@@ -58,7 +58,6 @@
 .banner-text h2 {
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
     padding-top: 177px;
@@ -68,7 +67,6 @@
 .banner-text h1 {
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -210,7 +208,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 .new-best-offer .coming-soon {
@@ -291,6 +288,9 @@
     font-size: 72px;
     font-weight: 900;
 }
+.holiday-sales .red-girl{
+    padding-left: 30px;
+}
 
 /* holiday sale ends here */
 
@@ -324,7 +324,7 @@
 }
 
 .portfolio {
-    margin-bottom: 650px;
+    margin-bottom: 700px;
 }
 
 /*  newsletter section style */
@@ -430,6 +430,11 @@
     margin-top: 260px;
     margin-left: 60px;
 }
+.footer-texts .footer-right .unsub:hover{
+   cursor: pointer;
+   color: #F00;
+}
+
 
 .footer .social-icons {
     width: 100%;
