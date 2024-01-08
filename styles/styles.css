@@ -263,32 +263,24 @@
     display: flex;
     align-items: center;
 }
-.holiday-sales .holiday-sales-texts{
-    background: url('../resources/Group\ 44.png'),rgba(224, 10, 10, 0.913);
-    max-width: 100%;
-}
+
 
 .holiday-sales .holiday-sales-texts h2 {
-    color: #1d1d1d;
+    color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
 
 .holiday-sales .holiday-sales-texts h1 span {
-    color: rgb(4, 4, 4);
+    color: #F00;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
 }
 
 .holiday-sales .holiday-sales-texts h1 {
-    color: #000000;
+    color: #070211;
     font-size: 72px;
     font-weight: 900;
-}
-
-.holiday-sales{
-    display: flex;
-    justify-content: center;
 }
