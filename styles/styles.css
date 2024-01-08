@@ -302,14 +302,59 @@
     font-size: 24px;
     font-weight: 500;
 }
-.portfolio .portfolio-texts{
+
+.portfolio .portfolio-texts {
     max-width: 900px;
     margin-bottom: 20px;
 }
-.portfolio img{
+
+.portfolio img {
     max-width: 500px;
     align-items: center;
 }
-.portfolio .portfolio-texts{
+
+.portfolio .portfolio-texts {
     margin-bottom: 48px;
+}
+
+.portfolio {
+    margin-bottom: 650px;
+}
+
+/*  newsletter section style */
+.newsletter {
+
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter .newsletter-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.newsletter .newsletter-content img {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.newsletter .newsletter-content h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.newsletter .newsletter-content p {
+    margin-bottom: 48px;
+}
+
+.newsletter .gmail-input {
+    text-align: center;
+    border-radius: 50px;
+    background: #FFF;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 0;
 }
