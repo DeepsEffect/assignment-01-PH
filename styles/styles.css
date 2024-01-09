@@ -240,16 +240,18 @@
     max-width: 364px;
     padding-left: 119px;
     padding-right: 167px;
+    /* the infamous red circle; took hours of thinking just for 3 lines of code. :)*/
     border: 15px solid red;
     border-radius: 100%;
     padding: 40px;
-    
+
 }
 
-.new-best-offer .coming-soon{
+.new-best-offer .coming-soon {
     padding-right: 70px;
 }
-.new-best-offer .coming-soon-right{
+
+.new-best-offer .coming-soon-right {
     padding-left: 118px;
 }
 
@@ -299,7 +301,8 @@
     font-size: 72px;
     font-weight: 900;
 }
-.holiday-sales .red-girl{
+
+.holiday-sales .red-girl {
     padding-left: 30px;
 }
 
@@ -378,9 +381,12 @@
 
 .newsletter form input {
     flex-grow: 1;
-    padding: 18px 0;
+    padding: 18px;
     border: none;
+    outline: none;
     border-radius: 5px;
+    font-family: Inter;
+    font-size: 16px;
 }
 
 .newsletter button {
@@ -393,7 +399,7 @@
 
 .footer {
     background: #070211;
-    
+
 }
 
 .footer .footer-texts {
@@ -429,7 +435,7 @@
     font-weight: 500;
     line-height: 40px;
     white-space: nowrap;
-   
+
 }
 
 
@@ -441,9 +447,10 @@
     margin-top: 260px;
     margin-left: 60px;
 }
-.footer-texts .footer-right .unsub:hover{
-   cursor: pointer;
-   color: #F00;
+
+.footer-texts .footer-right .unsub:hover {
+    cursor: pointer;
+    color: #F00;
 }
 
 
@@ -456,3 +463,5 @@
     border-bottom: 2px solid white;
     text-align: center;
 }
+
+/* the end :) */
